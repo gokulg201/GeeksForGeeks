@@ -3,6 +3,9 @@ package stackqueue;
 
 import java.util.Stack;
 
+/**
+* https://www.geeksforgeeks.org/maximum-size-rectangle-binary-sub-matrix-1s/
+**/
 public class MaximalRectangle {
 	private static int maxRectangleArea(int[][] matrix){
 		int row = matrix.length;
